@@ -43,6 +43,7 @@
 
 li a {
     display: flex;
+    justify-content: space-between;
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
@@ -50,7 +51,7 @@ li a {
     font-family: 'Lato', sans-serif;
     font-weight: 100;
     font-size: 12x;
-    padding: 25px 12px 25px 20%;
+    padding: 25px 15px 25px 20%;
     max-width: 768px;
 }    
 
@@ -77,25 +78,23 @@ li a:hover {
     font-weight: 600;
     background-color: #d1a1b2;
     color: #fff;
+    text-shadow: 1px 1px 2px rgb(48, 48, 48);
 }
 
 #navigation .sign-in:hover {
     animation: bounce 0.9s;
     background-color: #fff;
     color: #d1a1b2;
-    border: 4px solid #d1a1b2;
     transition: 0.8s;
     cursor: pointer;
-  }
-
-.mobile-nav {
-    display:  none;
+    text-shadow: none;
 }
+
 
 #button-holder a {
     display: flex;
     padding: 25px 0px 0px 10px;
-    height: 20px;  
+    height: 20px;
 }
 
 #button-holder a:hover {
