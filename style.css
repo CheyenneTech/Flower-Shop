@@ -19,7 +19,7 @@
     max-width: 100%;
     background-color:#ffc8dd;
     margin: 0px auto;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.233),rgba(0, 0, 0, 0.292)),url('/img/herobg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.365),rgba(0, 0, 0, 0.365)),url('/img/herobg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,7 +35,7 @@
     font-weight: 100;
     align-self: flex-start;
     text-transform: lowercase;
-    padding: 10px 50px 17px 47%;
+    padding: 10px 50px 17px 45%;
     font-size: 20px;
     display: flex;
     white-space: nowrap;
@@ -50,12 +50,78 @@ li a {
     font-family: 'Lato', sans-serif;
     font-weight: 100;
     font-size: 12x;
-    padding: 25px 15px 25px;
+    padding: 25px 12px 25px 20%;
+    max-width: 768px;
 }    
 
+li a:hover {
+    color: #d1a1b2;
+    transition: 0.8s;
+    animation: bounce 1s;
+    cursor: pointer;
+}
 .menu {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
 
 }
+
+#navigation .sign-in  {
+    max-height: 30px;
+    width: 90px;
+    margin: 19px;
+    border-radius: 50px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #d1a1b2;
+    color: #fff;
+}
+
+#navigation .sign-in:hover {
+    animation: bounce 0.9s;
+    background-color: #fff;
+    color: #d1a1b2;
+    border: 4px solid #d1a1b2;
+    transition: 0.8s;
+    cursor: pointer;
+  }
+
+.mobile-nav {
+    display:  none;
+}
+
+#button-holder a {
+    display: flex;
+    padding: 25px 0px 0px 10px;
+    height: 20px;  
+}
+
+#button-holder a:hover {
+    animation: bounce 0.9s;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  
+    40% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+  
+    80% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+  }
