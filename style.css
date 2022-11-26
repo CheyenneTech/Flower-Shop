@@ -1,0 +1,61 @@
+:root {
+    --primary: #FFC8DD;
+    --light: #BDE0FE;
+    --dark: #CDB4DB;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    list-style: none;
+}
+
+/* navigation ----------------------------------------------------------- */
+
+.nav-container {
+    display: flex;
+    height: 40vh;
+    max-width: 100%;
+    background-color:#ffc8dd;
+    margin: 0px auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.233),rgba(0, 0, 0, 0.292)),url('/img/herobg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: nowrap;
+    
+    
+}
+
+#navigation h1 {
+    font-family: charlotte;
+    color: #d1a1b2;
+    text-shadow: 1px 1px 2px rgb(2, 2, 2);
+    font-weight: 100;
+    align-self: flex-start;
+    text-transform: lowercase;
+    padding: 10px 50px 17px 47%;
+    font-size: 20px;
+    display: flex;
+    white-space: nowrap;
+}
+
+li a {
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgb(2, 2, 2);
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 12x;
+    padding: 25px 15px 25px;
+}    
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
