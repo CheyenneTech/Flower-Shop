@@ -106,7 +106,7 @@ li a:hover {
 
 .srv-container {
     display: flex;
-    height: 80vh;
+    height: 60vh;
     max-width: 100%;
     margin: 0 auto;
     background-color: rgba(255, 241, 251, 0.169);
@@ -117,11 +117,10 @@ li a:hover {
 }
 
 .srv-content {
-    margin: auto;
+    
     display: flex;
     flex-direction: row;
-    justify-items: center;
-    gap: 1rem;
+    justify-content: center;
     flex-shrink: 1;
     flex-grow: 1;
     flex-wrap: wrap;
@@ -132,28 +131,33 @@ li a:hover {
 .srv-one {
     text-align: justify;
     max-width: 373px;
-    padding: 4%;
+    padding: 34px;
+    
+    
     
 }
 
 .srv-two {
     text-align: justify;
     max-width: 373px;
-    padding: 4%;
+    padding: 34px;
+    
 }
 
 .srv-three {
     text-align: justify;
     max-width: 373px;
-    padding: 4%;
+    padding: 34px;
+    
     
 }
 
 .srv-one h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+    font-size: 24px;
     text-transform: uppercase;
     text-align: center;
+    padding: 10px;
 }
 
 .srv-two h1 {
@@ -161,6 +165,7 @@ li a:hover {
     font-size: 25px;
     text-transform: uppercase;
     text-align: center;
+    padding: 10px;
     
 }
 
@@ -169,38 +174,41 @@ li a:hover {
     font-size: 25px;
     text-transform: uppercase;
     text-align: center;
-}
-
-.srv-one img {
-    height: 250px;
-    width: 370px;
-    border-radius: 40px;
-    box-shadow: 0 0 3.5px 0.3px rgb(62, 53, 41);
+    padding: 10px;
 }
 
 .srv-one p {
-    padding-top: 15px;
+    padding: 15px 40px;
     
 }
 
 .srv-two p {
-    
+    padding: 15px 40px;
 }
 
 .srv-three p {
-    
+    padding: 15px 40px;
 }
 
+.srv-one img {
+    max-width: 100%;
+    
+    border-radius: 40px;
+    box-shadow: 0 0 3.5px 0.3px rgb(62, 53, 41);
+}
+
+
+
 .srv-two img {
-    height: 250px;
-    width: 370px;
+    max-width: 100%;
+    
     border-radius: 40px;
     box-shadow: 0 0 3.5px 0.3px rgb(62, 53, 41);
 }
 
 .srv-three img {
-    height: 250px;
-    width: 370px;
+    max-width: 100%;
+    
     border-radius: 40px;
     box-shadow: 0 0 3.5px 0.3px rgb(62, 53, 41);
     
