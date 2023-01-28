@@ -1,4 +1,5 @@
-// all test scripts
+// all test scripts to practice js
+
 let totalTrains = 12;
 let trainsOperational = 8;
 
